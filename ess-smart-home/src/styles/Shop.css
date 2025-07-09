@@ -1,0 +1,14 @@
+.shop {
+  padding: 2rem;
+  background-color: #121212;
+  min-height: 100vh;
+  color: white;
+  text-align: center;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
